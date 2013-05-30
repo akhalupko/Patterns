@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\source\main.cpp" />
+    <ClCompile Include="..\..\source\ConcreteFactory.cpp">
+      <Filter>Factories</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\ConcreteFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AbstractFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Factories">
+      <UniqueIdentifier>{bacfd352-0999-404b-ac0e-3d0cda19102e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
