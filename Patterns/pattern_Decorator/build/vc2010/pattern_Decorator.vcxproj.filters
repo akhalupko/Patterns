@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\source\main.cpp" />
+    <ClCompile Include="..\..\source\CompressedStream.cpp">
+      <Filter>Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\MemoryStream.cpp">
+      <Filter>Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ASCII7Stream.cpp">
+      <Filter>Decorators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\AbstractStreamDecorator.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CompressedStream.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AbstractStream.h">
+      <Filter>Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MemoryStream.h">
+      <Filter>Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\FactoryMethodClasses.h" />
+    <ClInclude Include="..\..\include\ASCII7Stream.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Streams">
+      <UniqueIdentifier>{0c026078-dfab-4a97-bb02-7f7b10b15149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorators">
+      <UniqueIdentifier>{978ac479-1810-4772-a5b2-c2b3ae64da7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
