@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\source\main.cpp" />
+    <ClCompile Include="..\..\source\States.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Elevator.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\States.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Elevator.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Customer.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{7050a772-50ba-4b2d-bfa0-478b301bf669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d1b48a97-afbc-4e0c-ba50-6fac663b357d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
